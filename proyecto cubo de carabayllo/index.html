@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carabayllo</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #2e7d32;
+        }
+
+        .tarjetas {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tarjeta {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .tarjeta h3 {
+            color: #1b5e20;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .galeria img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <h1>CARABAYLLO</h1>
+
+        <p>
+            Historia, cultura y lugares importantes
+        </p>
+
+        <p>
+            🇵🇪 Lima - Perú
+        </p>
+
+    </header>
+
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#ubicacion">Ubicación</a>
+
+        <a href="#historia">Historia</a>
+
+        <a href="#cultura">Cultura</a>
+
+        <a href="#lugares">Lugares</a>
+
+        <a href="#comida">Comida</a>
+
+    </nav>
+
+
+    <!-- UBICACION -->
+
+    <section id="ubicacion">
+
+        <h2>📍 ¿Dónde está Carabayllo?</h2>
+        <img src="imagenes/ubicacion.jpg" width="100%">
+
+        <p>
+
+            Carabayllo es un distrito ubicado en Lima Norte,
+            en el departamento de Lima, Perú.
+
+        </p>
+
+        <p>
+
+            El distrito se encuentra relacionado con el
+            valle del río Chillón.
+
+        </p>
+
+    </section>
+
+
+    <!-- HISTORIA -->
+
+    <section id="historia">
+
+        <h2>🏛️ Historia</h2>
+
+        <p>
+
+            Carabayllo posee una historia muy antigua.
+            Su territorio estuvo ocupado por diferentes
+            sociedades antes de la llegada de los españoles.
+
+        </p>
+
+        <p>
+
+            Durante la época colonial se creó el pueblo
+            de San Pedro de Carabayllo.
+
+        </p>
+
+        <p>
+
+            Con el paso del tiempo, Carabayllo fue creciendo
+            y actualmente forma parte de Lima Metropolitana.
+
+        </p>
+
+    </section>
+
+
+    <!-- CULTURA -->
+
+    <section id="cultura">
+
+        <h2>🎭 Cultura</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+
+                <h3>🏺 Patrimonio</h3>
+
+                <p>
+                    Carabayllo cuenta con lugares históricos
+                    y restos arqueológicos.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>🎉 Tradiciones</h3>
+
+                <p>
+                    Sus habitantes conservan diferentes
+                    costumbres y celebraciones.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>🌱 Agricultura</h3>
+
+                <p>
+                    El valle del río Chillón ha tenido
+                    importancia para la agricultura.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LUGARES -->
+
+    <section id="lugares">
+
+        <h2>🗺️ Lugares importantes</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+
+                <h3>Iglesia de San Pedro</h3>
+
+                <p>
+                    Es uno de los lugares históricos
+                    más importantes de Carabayllo.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>Hacienda Punchauca</h3>
+
+                <p>
+                    Es una construcción histórica
+                    relacionada con la época de la
+                    Independencia del Perú.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>Muralla de Tungasuca</h3>
+
+                <p>
+                    Es un sitio arqueológico relacionado
+                    con la historia prehispánica del valle.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COMIDA -->
+
+    <section id="comida">
+
+        <h2>🍲 Gastronomía</h2>
+
+        <p>
+
+            La gastronomía de Carabayllo forma parte de
+            la diversidad de comidas que podemos encontrar
+            en Lima Norte.
+
+        </p>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+
+                <h3>🍛 Comida criolla</h3>
+
+                <p>
+                    Los platos de la cocina criolla forman
+                    parte de la gastronomía local.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta">
+
+                <h3>🥔 Productos del valle</h3>
+
+                <p>
+                    La agricultura del valle del Chillón
+                    ha sido importante para la zona.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CUBO RUBIK -->
+
+    <section>
+
+        <h2>🧩 Mi cubo Rubik de Carabayllo</h2>
+
+        <p>
+
+            Este proyecto consiste en crear un cubo Rubik
+            personalizado con elementos representativos
+            de Carabayllo.
+
+        </p>
+
+        <p>
+
+            El código QR colocado en el empaque permite
+            acceder a esta página web y conocer más sobre
+            la historia y cultura del distrito.
+
+        </p>
+
+    </section>
+
+
+    <!-- GALERIA -->
+
+    <section>
+
+    <h2>📸 Galería</h2>
+
+    <p>
+        Algunas imágenes de Carabayllo.
+    </p>
+
+    <div class="galeria">
+
+        <img src="imagenes/foto1.jpg">
+
+        <img src="imagenes/foto2.jpg">
+
+        <img src="imagenes/foto3.jpg">
+
+    </div>
+
+    </section>
+
+
+    <!-- FUENTES -->
+
+    <section>
+
+        <h2>📚 Fuentes</h2>
+
+        <p>
+            Municipalidad de Carabayllo
+        </p>
+
+        <p>
+            Ministerio de Cultura
+        </p>
+
+        <p>
+            Mincetur
+        </p>
+
+    </section>
+
+
+    <!-- PIE DE PAGINA -->
+
+    <footer>
+
+        <p>
+            Proyecto escolar - Cubo Rubik de Carabayllo
+        </p>
+
+        <p>
+            Hecho por: Leonardo Adriano vilela Calixtro
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
